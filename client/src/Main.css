@@ -1,0 +1,230 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.container-fluid h1{
+  margin: auto;
+  display: block;
+  color : white;
+
+}
+.container-fluid{
+  color: #ffffff;
+  background-color: #793d00;
+}
+.navbarDefault{
+  background-color: #793d00;
+  margin-top: 2rem;
+}
+
+.formsContainer{
+  background-color: #f89b01;
+  display: flex;
+  padding: 2.5rem;
+
+}
+#colheader{
+  padding: 0;
+}
+.form{
+  border-radius: 4px;
+  width: 20rem;
+  margin-left: 1rem;
+}
+
+.btn-register{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: white;
+  background-color: #115396;
+  border: none;
+  border-radius: 8px;
+  padding: 5px;
+  margin-left: 2rem;
+  width: 10rem;
+}
+.left-container{
+  background-color: white;
+  display: flex;
+}
+.right-container{
+  background-color: white;
+  display: flex;
+}
+/* #register-form-container{
+  border: 5px solid black;
+   background-color: white; 
+} */
+#register-form-container h3{
+  text-align: center;
+  display: block;
+}
+#whitebox-left-container{
+  width: 30rem;
+  
+}
+.form h5{
+  text-align: start;
+  margin-left: 1rem;
+}
+
+.number-container{
+  height: 2.5rem;
+  width: 5rem;
+  margin-left: 1rem;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  border: black solid 0.1rem;
+}
+.number-container span{
+  width: 70%;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+#number{
+  border-right: 1.8px solid gray;
+  border-left: 1.8px solid gray;
+}
+#row-default{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.checkbox-title{
+  margin-left: 2rem;
+  align-items: start;
+  justify-content: start;
+  width: 10rem;
+}
+.checkbox-container{
+  margin-top: 7rem;
+  margin-right: 12rem;
+}
+#top-btn{
+  background-color: #115396;
+  color: white;
+  border: white;
+}
+#whitebox-container{
+  background-color: white;
+  width: 25rem;
+  border: black solid 0.3rem;
+}
+.crew-member-container{
+  display: flex;
+  margin-top: 2rem;
+  background-color: white;
+  height: 9rem;
+  justify-content: center;
+}
+#btn-delete{
+  background-color: #cf2b27;
+}
+.image-container{
+  width: 192px;
+  height: 144px;
+}
+.crew-btn-container h3{
+  margin-top: 1rem;
+}
+img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+h1{
+  font-weight: bold;
+}
+.form-about{
+  display: flex;
+}
+.field-about{
+  margin-left: 1rem;
+  margin-right: 2rem;
+  width: 6.8rem;
+}
+.btn-no{
+  margin-left: 3rem;
+  height: 26px;
+  width: 70px;
+  font-weight: bold;
+  background-color: #cf2b27;
+  color: white;
+  box-shadow: 3px 1px 4px black;
+}
+.btn-yes{
+  margin-left: 3rem;
+  height: 26px;
+  width: 70px;
+  font-weight: bold;
+  background-color: #38761d;
+  color: white;
+  box-shadow: 3px 1px 4px black;
+}
+#whitebox-about-container{
+  background-color: white;
+  width: 25rem;
+  border: black solid 0.3rem;
+  height: 400px;
+}
+#whitebox-about-container h3{
+  margin-bottom: 2rem;
+}
+#edit-left-container h2{
+  font-weight: bold;
+}
+#image-edit-container{
+  width: 300px;
+  height: 300px;
+  margin-bottom: 2rem;
+}
+#image-edit-container h2{
+  text-align: initial;
+
+}
