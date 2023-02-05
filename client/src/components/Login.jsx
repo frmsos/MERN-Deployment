@@ -17,7 +17,7 @@ const Login = () => {
 
     const submitRegister = (e) =>{
         e.preventDefault()
-        axios.post('http://localhost:8000/api/pirates/register', {
+        axios.post('http://52.201.159.177/api/pirates/register', {
             name, 
             lastName, 
             email, 
@@ -34,7 +34,7 @@ const Login = () => {
     }
     const clickLogin = (e) =>{
         e.preventDefault()
-        axios.post('http://localhost:8000/api/pirates/login', {
+        axios.post('http://52.201.159.177/api/pirates/login', {
             email : loginEmail, 
             password : loginPass
         }, {withCredentials:true })
